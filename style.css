@@ -1,0 +1,1598 @@
+/* Css Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main-Container Start */
+#main-container {
+    margin: 0px auto;
+    max-width: 1250px;
+}
+
+/* Main-Container End */
+
+/* Header Start */
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo img {
+    height: 70px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 22px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Header End */
+
+/* Container1 Start */
+#container1 {
+    background-image: url('/Images/Container1\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    width: 100%;
+}
+
+#container1 #container1h1 {
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    color: white;
+    text-shadow: 5px 4px 5px black;
+    padding-top: 210px;
+    padding-left: 80px;
+}
+
+#container1 #container1para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: white;
+    padding: 0px 80px;
+}
+
+#container1 #button1 {
+    margin: 35px 100px;
+}
+
+#container1 #button1 .btn1 {
+    color: white;
+    background-color: orangered;
+    padding: 10px 65px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Container1 End */
+
+/* Container2 Start */
+#container2 {
+    background-image: url('/Images/Container2\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+}
+
+#container2 #container2h1 {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#container2 #container2para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+#container2 #container2keander {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+#container2 #container2keander .box2 {
+    background-image: url('/Images/Container2\ Box2\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 #container2keander .box2 img {
+    height: 250px;
+}
+
+#container2 #container2keander .box2 .box2h1 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#container2 #container2keander .box2 .box2para {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Container2 End */
+
+/* Container3 Start */
+#container3 {
+    background-image: url('/Images/Container3\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+}
+
+#container3 #container3h1 {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#container3 #container3para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+#container3 #container3keander {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+#container3keander .box3 {
+    background-image: url('/Images/Container3\ Box3\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    border-radius: 5px;
+}
+
+#container3keander .box3 img {
+    height: 120px;
+    display: block;
+    margin: 20px auto;
+}
+
+#container3keander .box3 .box3h1 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#container3keander .box3 .box3para {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#container3keander .box3 .btn3 {
+    color: white;
+    background-color: #2e2929;
+    padding: 10px 65px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 120px;
+}
+
+/* Container3 End */
+
+/* Container4 Start */
+#container4 {
+    background-image: url('/Images/Container4\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#container4 .box4 {
+    width: 50%;
+}
+
+#container4 .box4 img {
+    height: 702px;
+    width: 100%;
+}
+
+#container4 .box4 #container4h1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 0px 50px;
+    padding: 0;
+}
+
+#container4 .box4 #container4para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0px 50px;
+}
+
+#container4 .box4 .button4 {
+    margin: 50px 55px;
+}
+
+#container4 .box4 .button4 .btn4 {
+    color: white;
+    background-color: #2e2929;
+    padding: 10px 65px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* Container4 End */
+
+/* Container5 Start */
+#container5 {
+    background-image: url('/Images/Container5\ Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#container5 .box5 {
+    width: 50%;
+}
+
+#container5 .box5 #container5h1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 0px 50px;
+}
+
+#container5 .box5 #container5para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0px 50px;
+}
+
+#container5 .box5 .button5 {
+    margin: 50px 55px;
+}
+
+#container5 .box5 .button5 .btn5 {
+    color: white;
+    background-color: #2e2929;
+    padding: 10px 65px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#container5 .box5 img {
+    height: 702px;
+    width: 100%;
+}
+
+/* Container5 End */
+
+/* Container6 Start */
+#container6 {
+    background-image: url('/Images/Container6\ Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+#container6 #container6h1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+}
+
+#container6 #container6para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#container6 .container6keander {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container6keander .box6 .container6box6h1 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container6keander .box6 .container6box6para {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Container6 End */
+
+/* Container7 Start */
+#container7 {
+    background-image: url('/Images/Container7\ Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+#container7 #container7para {
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+}
+
+#container7 #container7h1 {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Container7 End */
+
+/* Container8 Start */
+#container8 {
+    background-image: url('/Images/Container8\ Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+#container8 #container8h1 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+}
+
+#container8 #container8para {
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#form {
+    height: 50px;
+    width: 570px;
+    margin: 20px auto;
+}
+
+#form input[type='email'] {
+    height: 35px;
+    width: 390px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+#form input[type='submit'] {
+    height: 35px;
+    width: 150px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #2e2929;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    left: -5px;
+    cursor: pointer;
+}
+
+/* Container8 End */
+
+/* Footer Start */
+#lastcontainer {
+    background-image: url('/Images/Container6\ Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lastbox {
+    margin: 30px 0px;
+}
+
+.lastbox .lastboxh1 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 20px 50px;
+}
+
+.lastbox .lastboxpara {
+    font-size: 19px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 0px 50px;
+}
+
+.lastbox .lastbutton {
+    margin: 0px 50px;
+}
+
+.lastbox .lastbutton img {
+    margin: 5px 10px;
+}
+
+.lastbox .lastbutton li {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+.lastbox .lastbutton a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer End */
+
+/* Last Line Start */
+#lastline {
+    background-color: black;
+    width: 100%;
+}
+
+#lastline h5 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+/* Last Line End */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    /* Header Start */
+    header {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #logo {
+        width: 150px;
+        margin: 0px auto;
+    }
+
+    #logo img {
+        height: 70px;
+        padding: 20px 0px;
+        cursor: pointer;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        margin: auto;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        padding: 5px 0px;
+    }
+
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 22px;
+    }
+
+    #navbar ul li a:hover {
+        color: red;
+        background-color: black;
+    }
+
+    /* Header End */
+    /* Container1 Start */
+    #container1 {
+        background-image: url('/Images/Container1\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    #container1 #container1h1 {
+        font-size: 60px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-shadow: 5px 4px 5px black;
+        text-align: center;
+        margin: 0;
+        padding-top: 100px;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #container1 #container1para {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 20px 10px;
+    }
+
+    #container1 #button1 {
+        margin: 50px 0px;
+        text-align: center;
+    }
+
+    #container1 #button1 .btn1 {
+        color: white;
+        background-color: orangered;
+        padding: 10px 30px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    /* Container1 End */
+    /* Container2 Start */
+    #container2 {
+        background-image: url('/Images/Container2\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1800px;
+        width: 100%;
+    }
+
+    #container2 #container2h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #container2 #container2para {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    #container2 #container2keander {
+        display: flex;
+        flex-direction: column;
+        margin: 90px 10px;
+    }
+
+    #container2 #container2keander .box2 {
+        background-image: url('/Images/Container2\ Box2\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px 5px;
+    }
+
+    #container2 #container2keander .box2 img {
+        width: 100%;
+    }
+
+    #container2 #container2keander .box2 .box2h1 {
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #container2 #container2keander .box2 .box2para {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 20px;
+    }
+
+    /* Container2 End */
+    /* Container3 Start */
+    #container3 {
+        background-image: url('/Images/Container3\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1800px;
+        width: 100%;
+    }
+
+    #container3 #container3h1 {
+        font-size: 70px;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding: 30px 5px;
+    }
+
+    #container3 #container3para {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 20px 5px;
+    }
+
+    #container3 #container3keander {
+        display: flex;
+        flex-direction: column;
+        margin: 90px 0px;
+    }
+
+    #container3keander .box3 {
+        background-image: url('/Images/Container3\ Box3\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        border-radius: 5px;
+        margin: 20px 20px;
+    }
+
+    #container3keander .box3 img {
+        height: 100px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #container3keander .box3 .box3h1 {
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+
+    #container3keander .box3 .box3para {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 5px 20px;
+    }
+
+    #container3keander .box3 .btn3 {
+        color: white;
+        background-color: #2e2929;
+        padding: 10px 65px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 120px;
+    }
+
+    /* Container3 End */
+    /* Container4 Start */
+    #container4 {
+        background-image: url('/Images/Container4\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container4 .box4 {
+        width: 100%;
+    }
+
+    #container4 .box4 img {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    #container4 .box4 #container4h1 {
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    #container4 .box4 #container4para {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    #container4 .box4 .button4 {
+        margin: 50px 0px;
+        text-align: center;
+    }
+
+    #container4 .box4 .button4 .btn4 {
+        color: white;
+        background-color: #2e2929;
+        padding: 10px 65px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    /* Container4 End */
+    /* Container5 Start */
+    #container5 {
+        background-image: url('/Images/Container5\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1230px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container5 .box5 {
+        width: 100%;
+    }
+
+    #container5 .box5 #container5h1 {
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    #container5 .box5 #container5para {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    #container5 .box5 .button5 {
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    #container5 .box5 .button5 .btn5 {
+        color: white;
+        background-color: #2e2929;
+        padding: 10px 65px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    #container5 .box5 img {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    /* Container5 End */
+    /* Container6 Start */
+    #container6 {
+        background-image: url('/Images/Container6\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1200px;
+        width: 100%;
+    }
+
+    #container6 #container6h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    #container6 #container6para {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    #container6 .container6keander {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+        padding: 30px 0px;
+    }
+
+    .container6keander .box6 .container6box6h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .container6keander .box6 .container6box6para {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    /* Container6 End */
+    /* Container7 Start */
+    #container7 {
+        background-image: url('/Images/Container7\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+    }
+
+    #container7 #container7para {
+        font-size: 25px;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 150px;
+    }
+
+    #container7 #container7h1 {
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    /* Container7 End */
+    /* Container8 Start */
+    #container8 {
+        background-image: url('/Images/Container8\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+    }
+
+    #container8 #container8h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 60px;
+    }
+
+    #container8 #container8para {
+        font-size: 25px;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 5px 5px;
+    }
+
+    #form {
+        height: 80px;
+        width: 300px;
+        margin: 50px auto;
+    }
+
+    #form input[type='email'] {
+        height: 35px;
+        width: 280px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding: 0px 10px;
+        display: block;
+    }
+
+    #form input[type='submit'] {
+        height: 35px;
+        width: 150px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #2e2929;
+        /* font-family: 'Oswald', sans-serif; */
+        font-size: 15px;
+        cursor: pointer;
+        display: block;
+        margin: 10px auto;
+    }
+
+    /* Container8 End */
+    /* Footer Start */
+    #lastcontainer {
+        background-image: url('/Images/Container6\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastbox {
+        margin: 0px 0px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .lastbox .lastboxh1 {
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .lastbox .lastboxpara {
+        font-size: 19px;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .lastbox .lastbutton {
+        text-align: center;
+    }
+
+    .lastbox .lastbutton img {
+        margin: 5px 10px;
+    }
+
+    .lastbox .lastbutton li {
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+    }
+
+    .lastbox .lastbutton a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Footer End */
+    /* Last Line Start */
+    #lastline {
+        background-color: black;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    #lastline h5 {
+        color: white;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    /* Last Line End */
+}
+
+@media only screen and (min-width: 600px) and (max-width:930px) {
+
+    /* Header Start */
+    header {
+        background-color: black;
+        display: flex;
+        width: 100%;
+    }
+
+    #logo img {
+        height: 50px;
+        padding: 22px 10px;
+        cursor: pointer;
+    }
+
+    #navbar ul {
+        display: flex;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 10px;
+        font-family: 'Oswald', sans-serif;
+        padding: 20px 2px;
+    }
+
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        border-radius: 22px;
+    }
+
+    /* Header End */
+    /* Container1 Start */
+    #container1 {
+        background-image: url('/Images/Container1\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    #container1 #container1h1 {
+        font-size: 70px;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        color: white;
+        text-shadow: 5px 4px 5px black;
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+
+    #container1 #container1para {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        color: white;
+        padding: 0px 30px;
+    }
+
+    #container1 #button1 {
+        margin: 50px 40px;
+    }
+
+    #container1 #button1 .btn1 {
+        color: white;
+        background-color: orangered;
+        padding: 10px 65px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    /* Container1 End */
+    /* Container2 Start */
+    #container2 {
+        background-image: url('/Images/Container2\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+        width: 100%;
+    }
+
+    #container2 #container2h1 {
+        font-size: 70px;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #container2 #container2para {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 0px 0px;
+    }
+
+    #container2 #container2keander {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0px;
+    }
+
+    #container2 #container2keander .box2 {
+        background-image: url('/Images/Container2\ Box2\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 170px;
+    }
+
+    #container2 #container2keander .box2 img {
+        height: 145px;
+    }
+
+    #container2 #container2keander .box2 .box2h1 {
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    #container2 #container2keander .box2 .box2para {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    /* Container2 End */
+    /* Container3 Start */
+    #container3 {
+        background-image: url('/Images/Container3\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 760px;
+        width: 100%;
+    }
+
+    #container3 #container3h1 {
+        font-size: 70px;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    #container3 #container3para {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    #container3 #container3keander {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0px;
+    }
+
+    #container3keander .box3 {
+        background-image: url('/Images/Container3\ Box3\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        width: 170px;
+        border-radius: 5px;
+    }
+
+    #container3keander .box3 img {
+        height: 100px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #container3keander .box3 .box3h1 {
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    #container3keander .box3 .box3para {
+        font-size: 10px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    #container3keander .box3 .btn3 {
+        color: white;
+        background-color: #2e2929;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+        width: 120px;
+    }
+
+    /* Container3 End */
+    /* Container4 Start */
+    #container4 {
+        background-image: url('/Images/Container4\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #container4 .box4 {
+        width: 50%;
+    }
+
+    #container4 .box4 img {
+        height: 400px;
+        width: 100%;
+    }
+
+    #container4 .box4 #container4h1 {
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        margin: 0px 20px;
+    }
+
+    #container4 .box4 #container4para {
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding: 0px 20px;
+    }
+
+    #container4 .box4 .button4 {
+        margin: 50px 30px;
+    }
+
+    #container4 .box4 .button4 .btn4 {
+        color: white;
+        background-color: #2e2929;
+        padding: 10px 50px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    /* Container4 End */
+    /* Container5 Start */
+    #container5 {
+        background-image: url('/Images/Container5\ Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #container5 .box5 {
+        width: 50%;
+    }
+
+    #container5 .box5 #container5h1 {
+        font-size: 35px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        margin: 0px 20px;
+    }
+
+    #container5 .box5 #container5para {
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding: 0px 20px;
+    }
+
+    #container5 .box5 .button5 {
+        margin: 50px 30px;
+    }
+
+    #container5 .box5 .button5 .btn5 {
+        color: white;
+        background-color: #2e2929;
+        padding: 10px 50px;
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
+    #container5 .box5 img {
+        height: 400px;
+        width: 100%;
+    }
+
+    /* Container5 End */
+    /* Container6 Start */
+    #container6 {
+        background-image: url('/Images/Container6\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 100%;
+    }
+
+    #container6 #container6h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 70px;
+    }
+
+    #container6 #container6para {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    #container6 .container6keander {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0px;
+    }
+
+    .container6keander .box6 .container6box6h1 {
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .container6keander .box6 .container6box6para {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    /* Container6 End */
+    /* Container7 Start */
+    #container7 {
+        background-image: url('/Images/Container7\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+    }
+
+    #container7 #container7para {
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 200px;
+    }
+
+    #container7 #container7h1 {
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    /* Container7 End */
+    /* Container8 Start */
+    #container8 {
+        background-image: url('/Images/Container8\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+    }
+
+    #container8 #container8h1 {
+        font-size: 60px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 60px;
+    }
+
+    #container8 #container8para {
+        font-size: 15px;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    #form {
+        height: 50px;
+        width: 590px;
+        margin: 20px auto;
+    }
+
+    #form input[type='email'] {
+        height: 35px;
+        width: 415px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
+    #form input[type='submit'] {
+        height: 35px;
+        width: 150px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #2e2929;
+        /* font-family: 'Oswald', sans-serif; */
+        font-size: 15px;
+        position: relative;
+        top: 0;
+        left: -5px;
+        cursor: pointer;
+    }
+
+    /* Container8 End */
+    /* Footer Start */
+    #lastcontainer {
+        background-image: url('/Images/Container6\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lastbox {
+        margin: 30px 0px;
+    }
+
+    .lastbox .lastboxh1 {
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        padding: 20px 30px;
+    }
+
+    .lastbox .lastboxpara {
+        font-size: 19px;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        padding: 0px 0px;
+    }
+
+    .lastbox .lastbutton {
+        margin: 0px 50px;
+    }
+
+    .lastbox .lastbutton img {
+        margin: 5px 10px;
+    }
+
+    .lastbox .lastbutton li {
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+    }
+
+    .lastbox .lastbutton a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Footer End */
+}
