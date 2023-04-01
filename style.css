@@ -57,7 +57,7 @@ header {
 
 /* Container1 Start */
 #container1 {
-    background-image: url('/Images/Container1\ Background.png');
+    background-image: url('./Images/Container1\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ header {
 
 /* Container2 Start */
 #container2 {
-    background-image: url('/Images/Container2\ Background.png');
+    background-image: url('./Images/Container2\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,7 +133,7 @@ header {
 }
 
 #container2 #container2keander .box2 {
-    background-image: url('/Images/Container2\ Box2\ Background.png');
+    background-image: url('./Images/Container2\ Box2\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,7 +162,7 @@ header {
 
 /* Container3 Start */
 #container3 {
-    background-image: url('/Images/Container3\ Background.png');
+    background-image: url('./Images/Container3\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@ header {
 }
 
 #container3keander .box3 {
-    background-image: url('/Images/Container3\ Box3\ Background.png');
+    background-image: url('./Images/Container3\ Box3\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,7 +242,7 @@ header {
 
 /* Container4 Start */
 #container4 {
-    background-image: url('/Images/Container4\ Background.png');
+    background-image: url('./Images/Container4\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,7 +294,7 @@ header {
 
 /* Container5 Start */
 #container5 {
-    background-image: url('/Images/Container5\ Background.png');
+    background-image: url('./Images/Container5\ Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,7 +345,7 @@ header {
 
 /* Container6 Start */
 #container6 {
-    background-image: url('/Images/Container6\ Background.png');
+    background-image: url('./Images/Container6\ Background.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@ header {
 
 /* Container7 Start */
 #container7 {
-    background-image: url('/Images/Container7\ Background.png');
+    background-image: url('./Images/Container7\ Background.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -420,7 +420,7 @@ header {
 
 /* Container8 Start */
 #container8 {
-    background-image: url('/Images/Container8\ Background.png');
+    background-image: url('./Images/Container8\ Background.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -478,7 +478,7 @@ header {
 
 /* Footer Start */
 #lastcontainer {
-    background-image: url('/Images/Container6\ Background.png');
+    background-image: url('./Images/Container6\ Background.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -592,7 +592,7 @@ header {
     /* Header End */
     /* Container1 Start */
     #container1 {
-        background-image: url('/Images/Container1\ Background.png');
+        background-image: url('./Images/Container1\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -640,7 +640,7 @@ header {
     /* Container1 End */
     /* Container2 Start */
     #container2 {
-        background-image: url('/Images/Container2\ Background.png');
+        background-image: url('./Images/Container2\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -675,7 +675,7 @@ header {
     }
 
     #container2 #container2keander .box2 {
-        background-image: url('/Images/Container2\ Box2\ Background.png');
+        background-image: url('./Images/Container2\ Box2\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -705,7 +705,7 @@ header {
     /* Container2 End */
     /* Container3 Start */
     #container3 {
-        background-image: url('/Images/Container3\ Background.png');
+        background-image: url('./Images/Container3\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -737,7 +737,7 @@ header {
     }
 
     #container3keander .box3 {
-        background-image: url('/Images/Container3\ Box3\ Background.png');
+        background-image: url('./Images/Container3\ Box3\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -785,7 +785,7 @@ header {
     /* Container3 End */
     /* Container4 Start */
     #container4 {
-        background-image: url('/Images/Container4\ Background.png');
+        background-image: url('./Images/Container4\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -838,7 +838,7 @@ header {
     /* Container4 End */
     /* Container5 Start */
     #container5 {
-        background-image: url('/Images/Container5\ Background.png');
+        background-image: url('./Images/Container5\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -891,7 +891,7 @@ header {
     /* Container5 End */
     /* Container6 Start */
     #container6 {
-        background-image: url('/Images/Container6\ Background.png');
+        background-image: url('./Images/Container6\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -940,7 +940,7 @@ header {
     /* Container6 End */
     /* Container7 Start */
     #container7 {
-        background-image: url('/Images/Container7\ Background.png');
+        background-image: url('./Images/Container7\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -967,7 +967,7 @@ header {
     /* Container7 End */
     /* Container8 Start */
     #container8 {
-        background-image: url('/Images/Container8\ Background.png');
+        background-image: url('./Images/Container8\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1025,7 +1025,7 @@ header {
     /* Container8 End */
     /* Footer Start */
     #lastcontainer {
-        background-image: url('/Images/Container6\ Background.png');
+        background-image: url('./Images/Container6\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1129,7 +1129,7 @@ header {
     /* Header End */
     /* Container1 Start */
     #container1 {
-        background-image: url('/Images/Container1\ Background.png');
+        background-image: url('./Images/Container1\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1172,7 +1172,7 @@ header {
     /* Container1 End */
     /* Container2 Start */
     #container2 {
-        background-image: url('/Images/Container2\ Background.png');
+        background-image: url('./Images/Container2\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1204,7 +1204,7 @@ header {
     }
 
     #container2 #container2keander .box2 {
-        background-image: url('/Images/Container2\ Box2\ Background.png');
+        background-image: url('./Images/Container2\ Box2\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1235,7 +1235,7 @@ header {
     /* Container2 End */
     /* Container3 Start */
     #container3 {
-        background-image: url('/Images/Container3\ Background.png');
+        background-image: url('./Images/Container3\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1267,7 +1267,7 @@ header {
     }
 
     #container3keander .box3 {
-        background-image: url('/Images/Container3\ Box3\ Background.png');
+        background-image: url('./Images/Container3\ Box3\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1316,7 +1316,7 @@ header {
     /* Container3 End */
     /* Container4 Start */
     #container4 {
-        background-image: url('/Images/Container4\ Background.png');
+        background-image: url('./Images/Container4\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1366,7 +1366,7 @@ header {
     /* Container4 End */
     /* Container5 Start */
     #container5 {
-        background-image: url('/Images/Container5\ Background.png');
+        background-image: url('./Images/Container5\ Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1416,7 +1416,7 @@ header {
     /* Container5 End */
     /* Container6 Start */
     #container6 {
-        background-image: url('/Images/Container6\ Background.png');
+        background-image: url('./Images/Container6\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1463,7 +1463,7 @@ header {
     /* Container6 End */
     /* Container7 Start */
     #container7 {
-        background-image: url('/Images/Container7\ Background.png');
+        background-image: url('./Images/Container7\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1490,7 +1490,7 @@ header {
     /* Container7 End */
     /* Container8 Start */
     #container8 {
-        background-image: url('/Images/Container8\ Background.png');
+        background-image: url('./Images/Container8\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1547,7 +1547,7 @@ header {
     /* Container8 End */
     /* Footer Start */
     #lastcontainer {
-        background-image: url('/Images/Container6\ Background.png');
+        background-image: url('./Images/Container6\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
